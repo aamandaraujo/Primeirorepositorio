@@ -1,0 +1,7 @@
+echo "# Primeirorepositorio" > > README.md
+git init
+git add README.md
+git commit -m "primeiro commit"
+ramo git -M principal
+git remote add origin https://github.com/aamandaraujo/Primeirorepositorio.git
+git push -u origin principal
